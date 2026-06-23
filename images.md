@@ -1,1 +1,13 @@
-
+<img width="466" height="645" alt="bleach" src="https://github.com/user-attachments/assets/b7869090-e8a3-40c8-961a-4126dc3ecf6e" />
+<img width="189" height="267" alt="aot" src="https://github.com/user-attachments/assets/6ec3fa43-4bab-4f92-aea8-8f3dd37d5859" />
+<img width="189" height="267" alt="tokyoghoul" src="https://github.com/user-attachments/assets/ed708a2d-80c9-4863-a9d3-5c83f7a02034" />
+<img width="183" height="275" alt="sololeveling" src="https://github.com/user-attachments/assets/9e73a14f-d57d-410a-bdc4-ab9694afffaa" />
+<img width="189" height="267" alt="rezero" src="https://github.com/user-attachments/assets/d54f8a37-e55d-4f45-b365-d571e2086605" />
+<img width="194" height="259" alt="onepiece" src="https://github.com/user-attachments/assets/b8c11562-8ec9-46e4-94eb-2a91f893de4b" />
+<img width="188" height="268" alt="naruto" src="https://github.com/user-attachments/assets/5976dddb-10e9-4387-84a2-5f7274ea3c12" />
+<img width="183" height="275" alt="jjk" src="https://github.com/user-attachments/assets/b34f10de-a2c4-4bf2-b8fb-3254fc0f0e7e" />
+<img width="1536" height="1024" alt="hero" src="https://github.com/user-attachments/assets/89c81cd3-cd46-4772-8c9c-da8afc43cdd8" />
+<img width="183" height="275" alt="dragonball" src="https://github.com/user-attachments/assets/0783a9d2-1447-4e1d-8321-c86a37f918b0" />
+<img width="183" height="275" alt="demonslayer" src="https://github.com/user-attachments/assets/1e7c2144-f5ff-46ed-83ea-cad5c07919c1" />
+<img width="185" height="273" alt="deathnote" src="https://github.com/user-attachments/assets/20f52121-a963-4d99-bd1c-0eb26aac7a9e" />
+<img width="184" height="273" alt="chainsawman" src="https://github.com/user-attachments/assets/a5a7070a-e99b-4ecb-9971-56832e338d06" />
