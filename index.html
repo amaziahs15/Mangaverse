@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>MangaVerse Ultimate</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<!-- Animated Background -->
+
+<div class="particles"></div>
+
+<div class="red-aura aura1"></div>
+<div class="red-aura aura2"></div>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand"
+href="#">
+
+🔥 MangaVerse
+
+</a>
+
+<button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarContent">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div
+class="collapse navbar-collapse"
+id="navbarContent">
+
+<ul class="navbar-nav mx-auto">
+
+<li class="nav-item">
+<a class="nav-link active"
+href="#home">
+Home
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="#popular">
+Manga
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="#genres">
+Genres
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="#contact">
+Contact
+</a>
+</li>
+
+</ul>
+
+<input
+type="text"
+class="form-control search-box"
+placeholder="Search Manga...">
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- Hero Section -->
+
+<section
+id="home"
+class="featured-banner">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<span class="featured-tag">
+
+#1 BEST SELLER
+
+</span>
+
+<h1>
+
+WELCOME TO
+
+</h1>
+
+<h2>
+
+MANGAVERSE
+
+</h2>
+
+<p>
+
+Discover legendary manga series,
+exclusive collector editions,
+limited releases and best-selling
+titles from around the world.
+
+</p>
+
+<div class="banner-buttons">
+
+<button class="btn btn-danger btn-lg">
+
+Browse Collection
+
+</button>
+
+<button
+class="btn btn-outline-light btn-lg">
+
+Top Rated
+
+</button>
+
+</div>
+
+<div class="banner-stats">
+
+<div>
+
+<h3>5000+</h3>
+
+<p>Manga Titles</p>
+
+</div>
+
+<div>
+
+<h3>100K+</h3>
+
+<p>Readers</p>
+
+</div>
+
+<div>
+
+<h3>24/7</h3>
+
+<p>Support</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-6 text-center">
+
+<img
+src="images/hero.png"
+class="featured-image"
+alt="Featured Manga">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Trending Manga -->
+
+<section class="container py-5">
+
+<h2 class="section-title">
+
+🔥 Trending This Week
+
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-3">
+
+<div class="trend-card">
+
+<img
+src="images/onepiece.jpg"
+alt="One Piece">
+
+<h5>One Piece</h5>
+
+<p>⭐ 8.9 Rating</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="trend-card">
+
+<img
+src="images/dragonball.jpg"
+alt="Dragon Ball">
+
+<h5>Dragon Ball</h5>
+
+<p>⭐ 8.7 Rating</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="trend-card">
+
+<img
+src="images/bleach.jpg"
+alt="Bleach">
+
+<h5>Bleach</h5>
+
+<p>⭐ 8.5 Rating</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="trend-card">
+
+<img
+src="images/naruto.jpg"
+alt="Naruto">
+
+<h5>Naruto</h5>
+
+<p>⭐ 8.4 Rating</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Popular Manga -->
+
+<section
+id="popular"
+class="container py-5">
+
+<h2 class="section-title">
+
+📚 Popular Collection
+
+</h2>
+
+<div class="row g-4">
+
+<!-- One Piece -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('onepiece')">
+
+<img
+src="images/onepiece.jpg">
+
+<div class="hover-info">
+
+<h4>One Piece</h4>
+
+<p><b>👨 Author:</b> Eiichiro Oda</p>
+
+<p><b>⭐ Rating:</b> 8.9/10</p>
+
+<p><b>📚 Chapters:</b> 1153</p>
+
+<p><b>📈 Status:</b> Ongoing</p>
+
+<p class="hover-summary">
+
+Monkey D. Luffy sails across
+the Grand Line searching for
+the legendary One Piece treasure.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Dragon Ball -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('dragonball')">
+
+<img
+src="images/dragonball.jpg">
+
+<div class="hover-info">
+
+<h4>Dragon Ball</h4>
+
+<p><b>👨 Author:</b> Akira Toriyama</p>
+
+<p><b>⭐ Rating:</b> 8.7/10</p>
+
+<p><b>📚 Chapters:</b> 519</p>
+
+<p><b>📈 Status:</b> Completed</p>
+
+<p class="hover-summary">
+
+Goku trains to become stronger
+while protecting Earth from
+powerful enemies.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+<!-- Bleach -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('bleach')">
+
+<img
+src="images/bleach.jpg">
+
+<div class="hover-info">
+
+<h4>Bleach</h4>
+
+<p><b>👨 Author:</b> Tite Kubo</p>
+
+<p><b>⭐ Rating:</b> 8.5/10</p>
+
+<p><b>📚 Chapters:</b> 686</p>
+
+<p><b>📈 Status:</b> Completed</p>
+
+<p class="hover-summary">
+
+Ichigo Kurosaki gains Soul Reaper
+powers and protects humanity
+from dangerous Hollows.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Re Zero -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('rezero')">
+
+<img
+src="images/rezero.jpg">
+
+<div class="hover-info">
+
+<h4>Re:Zero</h4>
+
+<p><b>👨 Author:</b> Tappei Nagatsuki</p>
+
+<p><b>⭐ Rating:</b> 8.1/10</p>
+
+<p><b>📚 Chapters:</b> 700+</p>
+
+<p><b>📈 Status:</b> Ongoing</p>
+
+<p class="hover-summary">
+
+Subaru gains the ability
+to return by death and alter
+the fate of those around him.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Naruto -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('naruto')">
+
+<img
+src="images/naruto.jpg">
+
+<div class="hover-info">
+
+<h4>Naruto</h4>
+
+<p><b>👨 Author:</b> Masashi Kishimoto</p>
+
+<p><b>⭐ Rating:</b> 8.4/10</p>
+
+<p><b>📚 Chapters:</b> 700</p>
+
+<p><b>📈 Status:</b> Completed</p>
+
+<p class="hover-summary">
+
+Naruto Uzumaki dreams of
+becoming Hokage and earning
+the respect of his village.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Attack On Titan -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('aot')">
+
+<img
+src="images/aot.jpg">
+
+<div class="hover-info">
+
+<h4>Attack on Titan</h4>
+
+<p><b>👨 Author:</b> Hajime Isayama</p>
+
+<p><b>⭐ Rating:</b> 8.8/10</p>
+
+<p><b>📚 Chapters:</b> 139</p>
+
+<p><b>📈 Status:</b> Completed</p>
+
+<p class="hover-summary">
+
+Humanity fights gigantic Titans
+while uncovering shocking truths
+about the world beyond the walls.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Jujutsu Kaisen -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('jjk')">
+
+<img
+src="images/jjk.jpg">
+
+<div class="hover-info">
+
+<h4>Jujutsu Kaisen</h4>
+
+<p><b>👨 Author:</b> Gege Akutami</p>
+
+<p><b>⭐ Rating:</b> 8.7/10</p>
+
+<p><b>📚 Chapters:</b> 271</p>
+
+<p><b>📈 Status:</b> Completed</p>
+
+<p class="hover-summary">
+
+Yuji Itadori becomes the host
+of Sukuna and enters the world
+of cursed spirits and sorcerers.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Solo Leveling -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('solo')">
+
+<img
+src="images/sololeveling.jpg">
+
+<div class="hover-info">
+
+<h4>Solo Leveling</h4>
+
+<p><b>👨 Author:</b> Chugong</p>
+
+<p><b>⭐ Rating:</b> 8.6/10</p>
+
+<p><b>📚 Chapters:</b> 179</p>
+
+<p><b>📈 Status:</b> Completed</p>
+
+<p class="hover-summary">
+
+The weakest hunter Sung Jin-Woo
+obtains a mysterious system and
+becomes humanity's strongest hero.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+<!-- Death Note -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('deathnote')">
+
+<img
+src="images/deathnote.jpg">
+
+<div class="hover-info">
+
+<h4>Death Note</h4>
+
+<p><b>👨 Author:</b> Tsugumi Ohba</p>
+
+<p><b>⭐ Rating:</b> 9.0/10</p>
+
+<p><b>📚 Chapters:</b> 108</p>
+
+<p><b>📈 Status:</b> Completed</p>
+
+<p class="hover-summary">
+
+Light Yagami discovers a notebook
+that can kill anyone whose name
+is written inside it.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Demon Slayer -->
+
+<div class="col-lg-3 col-md-6">
+
+<div
+class="manga-card"
+onclick="showManga('demonslayer')">
+
+<img
+src="images/demonslayer.jpg">
+
+<div class="hover-info">
+
+<h4>Demon Slayer</h4>
+
+<p><b>👨 Author:</b> Koyoharu Gotouge</p>
+
+<p><b>⭐ Rating:</b> 8.6/10</p>
+
+<p><b>📚 Chapters:</b> 205</p>
+
+<p><b>📈 Status:</b> Completed</p>
+
+<p class="hover-summary">
+
+Tanjiro joins the Demon Slayer
+Corps to save his sister and
+avenge his family.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Statistics -->
+
+<section class="stats-section">
+
+<div class="container">
+
+<div class="row text-center">
+
+<div class="col-md-3">
+
+<h2 class="counter">
+5000+
+</h2>
+
+<p>
+Manga Titles
+</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h2 class="counter">
+100K+
+</h2>
+
+<p>
+Readers
+</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h2 class="counter">
+250K+
+</h2>
+
+<p>
+Sales
+</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h2 class="counter">
+24/7
+</h2>
+
+<p>
+Support
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Genres -->
+
+<section
+id="genres"
+class="container py-5">
+
+<h2 class="section-title">
+
+🎭 Explore Genres
+
+</h2>
+
+<div class="genre-grid">
+
+<div class="genre-box">
+⚔️ Action
+</div>
+
+<div class="genre-box">
+🏴 Adventure
+</div>
+
+<div class="genre-box">
+✨ Fantasy
+</div>
+
+<div class="genre-box">
+👻 Supernatural
+</div>
+
+<div class="genre-box">
+❤️ Romance
+</div>
+
+<div class="genre-box">
+🧠 Psychological
+</div>
+
+<div class="genre-box">
+🔪 Thriller
+</div>
+
+<div class="genre-box">
+😂 Comedy
+</div>
+
+</div>
+
+</section>
+
+<!-- Manga Modal -->
+
+<div
+id="mangaModal"
+class="manga-modal">
+
+<div class="modal-content-box">
+
+<span
+class="close-btn"
+onclick="closeModal()">
+
+&times;
+
+</span>
+
+<div id="modalData">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Newsletter -->
+
+<section class="newsletter">
+
+<div class="container text-center">
+
+<h2>
+
+📬 Join MangaVerse Premium
+
+</h2>
+
+<p>
+
+Get updates on new manga releases,
+collector editions and special discounts.
+
+</p>
+
+<div class="newsletter-box">
+
+<input
+type="email"
+placeholder="Enter your email">
+
+<button
+class="btn btn-danger">
+
+Subscribe
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+<!-- Contact -->
+
+<section
+id="contact"
+class="contact-section">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<h2>
+
+📚 Contact MangaVerse
+
+</h2>
+
+<p>
+
+Need help with orders,
+subscriptions or recommendations?
+
+Our support team is available
+24/7 to assist manga fans worldwide.
+
+</p>
+
+<div class="contact-info">
+
+<div>
+
+<i class="fa-solid fa-envelope"></i>
+
+support@mangaverse.com
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-phone"></i>
+
++91 98765 43210
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Tokyo • Chennai • New York
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-6">
+
+<form>
+
+<input
+type="text"
+class="form-control mb-3"
+placeholder="Your Name">
+
+<input
+type="email"
+class="form-control mb-3"
+placeholder="Your Email">
+
+<textarea
+class="form-control mb-3"
+rows="5"
+placeholder="Your Message"></textarea>
+
+<button
+type="submit"
+class="btn btn-danger">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-4">
+
+<h3>
+
+🔥 MangaVerse
+
+</h3>
+
+<p>
+
+The ultimate destination
+for manga collectors and anime fans.
+
+Explore legendary stories,
+exclusive editions and top-rated series.
+
+</p>
+
+</div>
+
+<div class="col-md-4">
+
+<h4>
+
+Quick Links
+
+</h4>
+
+<ul>
+
+<li>Home</li>
+
+<li>Popular Manga</li>
+
+<li>Genres</li>
+
+<li>Contact</li>
+
+</ul>
+
+</div>
+
+<div class="col-md-4">
+
+<h4>
+
+Follow Us
+
+</h4>
+
+<div class="social-icons">
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-discord"></i>
+
+<i class="fab fa-youtube"></i>
+
+<i class="fab fa-x-twitter"></i>
+
+</div>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+
+© 2026 MangaVerse Ultimate.
+All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
